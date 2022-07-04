@@ -1,0 +1,38 @@
+import * as T from './types'
+
+const colors: T.colorsSchema = {
+  primaryDarkest: '#5F2EEA',
+  primaryDark: '#2A00A2',
+  primaryBase: '#BCA4FF',
+  primaryLight: '#E4DAFF',
+  primaryLightest: '#F3EFFF',
+  secondaryDarkest: '#1CC8EE',
+  secondaryDark: '#0096B7',
+  secondaryBase: '#82E9FF',
+  secondaryLight: '#DEF9FF',
+  secondaryLightest: '#F1FCFF',
+  neutralBlack: '#000000',
+  neutralDarkest: '#0F0F0F',
+  neutralDark: '#424242',
+  neutralBase: '#757575',
+  neutralLight: '#C2C2C2',
+  neutralLightest: '#F1F1F1',
+  neutralWhite: '#FFFFFF',
+  positiveDarkest: '#1B5D0E',
+  positiveDark: '#348C22',
+  positiveBase: '#4BBC35',
+  positiveLight: '#75D661',
+  positiveLightest: '#9FEA90',
+  negativeDarkest: '#800000',
+  negativeDark: '#B20000',
+  negativeBase: '#E50000',
+  negativeLight: '#F53D3D',
+  negativeLightest: '#FB6A6A',
+  warningDarkest: '#B87400',
+  warningDark: '#D68A05',
+  warningBase: '#F9A006',
+  warningLight: '#F7B036',
+  warningLightest: '#F3BB58',
+}
+
+export default colors

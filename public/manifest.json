@@ -1,0 +1,9 @@
+{
+  "name": "Platform dev",
+  "short_name": "Platform dev",
+  "background_color": "#FFFFFF",
+  "theme_color": "#012AFF",
+  "description": "Platform dev",
+  "display": "fullscreen",
+  "start_url": "/"
+}

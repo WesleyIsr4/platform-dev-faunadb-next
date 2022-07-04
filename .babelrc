@@ -1,0 +1,13 @@
+{
+  "presets": ["next/babel", "@babel/preset-typescript"],
+  "plugins": [
+    "inline-react-svg",
+    ["module-resolver", { "root": ["./"], "alias": { "svgs": "./public/assets/svgs" } }],
+    ["babel-plugin-styled-components", { "ssr": true, "displayName": true }]
+  ],
+  "env": {
+    "test": {
+      "plugins": [["babel-plugin-styled-components", { "ssr": false, "displayName": false }]]
+    }
+  }
+}

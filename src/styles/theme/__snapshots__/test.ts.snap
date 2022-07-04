@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`theme Theme should match snapshot 1`] = `
+Object {
+  "breakPoints": Object {
+    "lessThan": Object {
+      "desktop": "@media screen and (max-width: 992px)",
+      "largeDesktop": "@media screen and (max-width: 1400px)",
+      "mobile": "@media screen and (max-width: 576px)",
+      "tablet": "@media screen and (max-width: 768px)",
+    },
+    "moreThan": Object {
+      "desktop": "@media screen and (min-width: 992px)",
+      "largeDesktop": "@media screen and (min-width: 1400px)",
+      "mobile": "@media screen and (min-width: 576px)",
+      "tablet": "@media screen and (min-width: 768px)",
+    },
+  },
+  "colors": Object {
+    "negativeBase": "#E50000",
+    "negativeDark": "#B20000",
+    "negativeDarkest": "#800000",
+    "negativeLight": "#F53D3D",
+    "negativeLightest": "#FB6A6A",
+    "neutralBase": "#757575",
+    "neutralBlack": "#000000",
+    "neutralDark": "#424242",
+    "neutralDarkest": "#0F0F0F",
+    "neutralLight": "#C2C2C2",
+    "neutralLightest": "#F1F1F1",
+    "neutralWhite": "#FFFFFF",
+    "positiveBase": "#4BBC35",
+    "positiveDark": "#348C22",
+    "positiveDarkest": "#1B5D0E",
+    "positiveLight": "#75D661",
+    "positiveLightest": "#9FEA90",
+    "primaryBase": "#BCA4FF",
+    "primaryDark": "#2A00A2",
+    "primaryDarkest": "#5F2EEA",
+    "primaryLight": "#E4DAFF",
+    "primaryLightest": "#F3EFFF",
+    "secondaryBase": "#82E9FF",
+    "secondaryDark": "#0096B7",
+    "secondaryDarkest": "#1CC8EE",
+    "secondaryLight": "#DEF9FF",
+    "secondaryLightest": "#F1FCFF",
+    "warningBase": "#F9A006",
+    "warningDark": "#D68A05",
+    "warningDarkest": "#B87400",
+    "warningLight": "#F7B036",
+    "warningLightest": "#F3BB58",
+  },
+  "fonts": Object {
+    "type": Object {
+      "primary": "Roboto",
+    },
+    "weight": Object {
+      "bold": 700,
+      "light": 300,
+      "regular": 400,
+      "semiBold": 500,
+    },
+  },
+  "helpers": Object {
+    "transitions": [Function],
+  },
+  "sizes": Object {
+    "custom": [Function],
+    "lg": "40px",
+    "md": "24px",
+    "sm": "16px",
+    "xl": "80px",
+    "xs": "8px",
+    "xxs": "4px",
+  },
+}
+`;

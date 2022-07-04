@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> should button match snapshot 1`] = `
+.c0 {
+  cursor: pointer;
+  font-weight: 400;
+  border: none;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 16px;
+  white-space: nowrap;
+  height: 56px;
+  font-size: 18px;
+  padding: 13px 24px;
+  -webkit-transition: background 400ms ease,opacity 400ms ease;
+  transition: background 400ms ease,opacity 400ms ease;
+  background: #5F2EEA;
+  color: #F1F1F1;
+  font-weight: 500;
+}
+
+.c0:hover,
+.c0:focus {
+  background: #210081;
+}
+
+.c0:active {
+  background: #1CC8EE;
+}
+
+@media screen and (max-width:768px) {
+  .c0 {
+    gap: 8px;
+  }
+}
+
+<div>
+  <button
+    class="c0"
+    type="button"
+  >
+    I am a Button
+  </button>
+</div>
+`;
